@@ -19,7 +19,7 @@ In this sample you do the following steps by using Python SDK:
 * **Create an application in Azure Active Directory** following [this instruction](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal.md#create-an-azure-active-directory-application). Make note of the following values that you use in later steps: **application ID**, **authentication key**, and **tenant ID**. Assign application to "**Contributor**" role by following instructions in the same article.
 * Create a **blob container** in Blob Storage, create an input **folder** in the container, and upload some files to the folder. The sample code use the **inputpy** and **outputpy** as input and output folder names. If you use different folders, update these values in the source code. 
 
-## Install the Python package
+## Install the Python package.
 1. Open a terminal or command prompt with administrator privileges. 
 2. First, install the Python package for Azure management resources:
 
